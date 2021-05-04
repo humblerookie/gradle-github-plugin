@@ -18,10 +18,10 @@ apply plugin: 'maven-publish'
 apply plugin: 'signing'
 apply plugin: "com.gradle.plugin-publish"
 
-def GradleGithubPluginGroupId = 'co.riiid'
+def GradleGithubPluginGroupId = 'com.humblerookie'
 def GradleGithubPluginVersion = '0.4.3'
 def GradleGithubPluginArtifact = 'gradle-github-plugin'
-def GradleGithubPluginUrl = 'https://github.com/riiid/gradle-github-plugin'
+def GradleGithubPluginUrl = 'https://github.com/humblerookie/gradle-github-plugin'
 
 pluginBundle {
     website = GradleGithubPluginUrl
@@ -31,7 +31,7 @@ pluginBundle {
 
     plugins {
         greetingsPlugin {
-            id = 'co.riiid.gradle'
+            id = 'com.humblerookie.gradle'
             displayName = 'Gradle plugin for Github releases'
         }
     }
