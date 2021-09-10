@@ -1,4 +1,4 @@
-package co.riiid.gradle
+package io.github.humblerookie
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project

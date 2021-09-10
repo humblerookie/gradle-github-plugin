@@ -1,4 +1,4 @@
-package co.riiid.gradle
+package io.github.humblerookie
 
 import groovyx.net.http.ContentType
 import groovyx.net.http.Method

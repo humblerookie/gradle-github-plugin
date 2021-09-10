@@ -1,4 +1,4 @@
-package co.riiid.gradle
+package io.github.humblerookie
 
 import org.gradle.testfixtures.ProjectBuilder
 import org.junit.Assert

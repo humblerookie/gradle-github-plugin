@@ -1,4 +1,4 @@
-package co.riiid.gradle
+package io.github.humblerookie
 
 import groovy.json.JsonSlurper
 import groovyx.net.http.HTTPBuilder
