@@ -1,6 +1,5 @@
 # gradle-github-plugin
-[ ![Download](https://api.bintray.com/packages/riiidadmin/maven/gradle-github-plugin/images/download.svg) ](https://bintray.com/riiidadmin/maven/gradle-github-plugin/_latestVersion)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-gradle--github--plugin-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/1890)
+![Version](https://img.shields.io/gradle-plugin-portal/v/io.github.humblerookie.gradle)
 
 :truck: Gradle plugin for Github releases.  
 You can fully automate releases via *gradle-github-plugin*. :rocket:
@@ -28,7 +27,7 @@ buildscript {
 
     dependencies {
         ...
-        classpath "io.github.humblerookie:gradle-github-plugin:0.5.0"
+        classpath "io.github.humblerookie:gradle-github-plugin:<version>"
         ...
     }
 }
