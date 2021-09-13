@@ -16,17 +16,19 @@ There are two ways.
 
 ### 1. jcenter
 Edit your `build.gradle` file.  
-Add `jcenter()`, `classpath ...` to `repositories`, `dependencies` in `buidlscript` respectively.
+Add `jcenter()`, `classpath ...` to `repositories`, `dependencies` in `buildscript` respectively.
 
 ```groovy
 buildscript {
     repositories {
-        jcenter()
+        maven {
+          url "https://plugins.gradle.org/m2/"
+        }
     }
 
     dependencies {
         ...
-        classpath 'co.riiid:gradle-github-plugin:X.Y.Z'
+        classpath "io.github.humblerookie:gradle-github-plugin:0.5.0"
         ...
     }
 }
@@ -43,7 +45,7 @@ apply plugin: 'co.riiid.gradle'
 
 ```groovy
 plugins {
-  id "co.riiid.gradle" version "X.Y.Z"
+  id "io.github.humblerookie.gradle" version "0.5.0"
 }
 ```
 
@@ -67,7 +69,7 @@ draft | boolean | *Optional.* `true` to identify the release as a prerelease. `f
 ### Example
 ```groovy
 github {
-    owner = 'riiid'
+    owner = 'humblerookie'
     repo = 'gradle-github-plugin'
     token = 'XXXXXXXXXXXXXXXXXXXXX'
     tagName = '0.1.0'
