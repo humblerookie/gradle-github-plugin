@@ -36,7 +36,7 @@ buildscript {
 And add apply plugin.
 
 ```groovy
-apply plugin: 'co.riiid.gradle'
+apply plugin: 'io.github.humblerookie.gradle'
 ```
 
 ### 2. plugins.gradle.org (easy)
