@@ -1,4 +1,4 @@
-# gradle-github-plugin
+# [gradle-github-plugin](https://plugins.gradle.org/plugin/io.github.humblerookie.gradle)
 ![Version](https://img.shields.io/gradle-plugin-portal/v/io.github.humblerookie.gradle)
 
 :truck: Gradle plugin for Github releases.  
